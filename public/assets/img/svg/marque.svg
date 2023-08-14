@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="431" viewBox="0 0 1920 431">
+  <defs>
+    <clipPath id="clip-marque">
+      <rect width="1920" height="431"/>
+    </clipPath>
+  </defs>
+  <g id="marque" clip-path="url(#clip-marque)">
+    <path id="Rectangle_1" data-name="Rectangle 1" d="M0,0H1222a180,180,0,0,1,180,180v71a180,180,0,0,1-180,180H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1923 431) rotate(-180)" fill="#d6eaff"/>
+    <path id="Rectangle_1_-_Contour" data-name="Rectangle 1 - Contour" d="M1,1V430H1222a180.328,180.328,0,0,0,36.076-3.637,178.017,178.017,0,0,0,64-26.933,179.523,179.523,0,0,0,64.854-78.756,178.089,178.089,0,0,0,10.43-33.6A180.329,180.329,0,0,0,1401,251V180a180.329,180.329,0,0,0-3.637-36.076,178.018,178.018,0,0,0-26.933-64,179.524,179.524,0,0,0-78.756-64.854,178.094,178.094,0,0,0-33.6-10.43A180.328,180.328,0,0,0,1222,1H1M0,0H1222a180,180,0,0,1,180,180v71a180,180,0,0,1-180,180H0Z" transform="translate(1923 431) rotate(-180)" fill="#d6eaff"/>
+  </g>
+</svg>

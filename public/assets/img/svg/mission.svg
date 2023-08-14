@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="553" height="222" viewBox="0 0 553 222">
+  <defs>
+    <clipPath id="clip-mission">
+      <rect width="553" height="222"/>
+    </clipPath>
+  </defs>
+  <g id="mission" clip-path="url(#clip-mission)">
+    <rect width="553" height="222" fill="rgba(255,255,255,0)"/>
+    <path id="Tracé_1" data-name="Tracé 1" d="M-.61,198.539V627.267H695.93S413.248,555,239.113,447.821-.61,198.539-.61,198.539Z" transform="translate(-112.064 154.374) rotate(-14)" fill="#d6eaff" stroke="#d6eaff" stroke-width="1"/>
+    <path id="Tracé_5" data-name="Tracé 5" d="M-.61,198.539V351.531H110.237s-45.673-24.982-63.283-53.4S-.61,198.539-.61,198.539Z" transform="translate(200.831 214.836) rotate(-88)" fill="#d6eaff" stroke="#d6eaff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>
