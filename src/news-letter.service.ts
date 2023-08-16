@@ -10,7 +10,11 @@ export class NewsLettersService {
     private newsletterModel: Model<NewsLetter>,
   ) {}
 
-  subscribe(newsLetterDto: NewsLetterDto): Promise<NewsLetter> {
+  subscribe(newsLetterDto: NewsLetterDto): Promise<NewsLetter> | string {
+    if (this.newsletterModel.exists({ email: newsLetterDto.email })) {
+      return 'This email already exists';
+    }
+
     const addedEmail = new this.newsletterModel(newsLetterDto);
     return addedEmail.save();
   }
