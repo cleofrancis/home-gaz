@@ -1,12 +1,14 @@
+let form = document.getElementById('form');
 let btn = document.getElementById('submit');
+
 btn.addEventListener('click', (e) => {
   e.preventDefault();
 
   let email = document.getElementById('email').value;
 
   if (email !== '') {
-    console.log(email);
     postData('/api/subscribe', { email: email }).then((data) => {
+      form.reset()
       console.log(data)
     });
   } else {
